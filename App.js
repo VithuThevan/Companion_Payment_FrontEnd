@@ -46,8 +46,8 @@ const App = () => {
       },
     });
     let buttonalert = new createTwoButtonAlert(
-      'Success',
-      'Your Payment receipt has been sent for verification',
+      'Upload Success!',
+      'Your Payment receipt has been sent for verification!',
     );
     buttonalert;
     let responseJson = await res.json();
